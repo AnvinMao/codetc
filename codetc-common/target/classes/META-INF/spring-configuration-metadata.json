@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "com.codetc.common.config.SwaggerProps",
+      "sourceType": "com.codetc.common.config.SwaggerProps"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.enable",
+      "type": "java.lang.Boolean",
+      "description": "文档开关",
+      "sourceType": "com.codetc.common.config.SwaggerProps",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

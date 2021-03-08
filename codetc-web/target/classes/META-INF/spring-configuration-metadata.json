@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "auth.ignored",
+      "type": "com.codetc.web.component.IgnoreUrls",
+      "sourceType": "com.codetc.web.component.IgnoreUrls"
+    },
+    {
+      "name": "jwt",
+      "type": "com.codetc.web.component.JwtProps",
+      "sourceType": "com.codetc.web.component.JwtProps"
+    }
+  ],
+  "properties": [
+    {
+      "name": "auth.ignored.urls",
+      "type": "java.util.List<java.lang.String>",
+      "description": "忽略认证的接口",
+      "sourceType": "com.codetc.web.component.IgnoreUrls"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>codetc-web</artifactId>
+    <packaging>jar</packaging>
+    <name>codetc-admin</name>
+
+    <parent>
+        <artifactId>codetc</artifactId>
+        <groupId>com.codetc</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <dependencies>
+        <!-- 子模块 COMMON -->
+        <dependency>
+            <groupId>com.codetc</groupId>
+            <artifactId>codetc-common</artifactId>
+        </dependency>
+        <!-- 子模块 MBG -->
+        <dependency>
+            <groupId>com.codetc</groupId>
+            <artifactId>codetc-mbg</artifactId>
+        </dependency>
+        <!-- 子模块 第三方服务 -->
+        <dependency>
+            <groupId>com.codetc</groupId>
+            <artifactId>codetc-third</artifactId>
+        </dependency>
+        <!-- JWT -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+        </dependency>
+        <!-- Hutool -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>admin</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
