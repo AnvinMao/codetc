@@ -1,4 +1,8 @@
-# codetc
+<h1>codetc</h1>
+
+![Image text](https://img.shields.io/badge/springboot-2.3.1-green.svg)
+![Image text](https://img.shields.io/badge/MyBatis%20Plus-3.4.1-green.svg)
+
 一个基于 Spring Boot + mybaits plus + Redis 的前后端分离快速开发脚手架
 
 ## 项目说明
